@@ -12,8 +12,8 @@ import java.io.IOException;
 import java.io.Writer;
 import java.util.regex.Pattern;
 
-public class CDataContentHandler extends XMLWriter {
-    public CDataContentHandler(Writer writer, String encoding) throws IOException {
+public class CDATAContentHandler extends XMLWriter {
+    public CDATAContentHandler(Writer writer, String encoding) throws IOException {
         super(writer, encoding);
     }
 
