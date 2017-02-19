@@ -50,7 +50,6 @@ public class CDataWorkingDemo {
             webServiceTemplate.sendSourceAndReceiveToResult(source, result);
             return result;
             */
-            //We can now use the Spring webservicetemplate to sendSourceAndReceiveToResult(inputXMLAsAString);
 
             sw.close();
 
