@@ -1,10 +1,5 @@
 package com.project;
 
-/*
-import com.sun.xml.internal.txw2.output.XMLWriter;
-import org.xml.sax.SAXException;
-*/
-
 import com.sun.xml.internal.txw2.output.XMLWriter;
 import org.xml.sax.SAXException;
 
