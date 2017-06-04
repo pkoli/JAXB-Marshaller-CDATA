@@ -43,14 +43,6 @@ public class CDataWorkingDemo {
 
             System.out.println(sw.toString());
 
-            //The CDATA is getting added as per the sample request XML
-            /*
-            StreamSource source = new StreamSource(new StringReader(sw.toString()));
-            StreamResult result = new StreamResult(System.out);
-            webServiceTemplate.sendSourceAndReceiveToResult(source, result);
-            return result;
-            */
-
             sw.close();
 
         } catch (JAXBException e) {
